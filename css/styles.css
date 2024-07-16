@@ -1,0 +1,65 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*font-family: "Anonymous Pro", monospace;
+*/
+body{
+    font-family: "Anonymous Pro", monospace;;
+    color: #AA092B;
+}
+h1 { font-weight: bold;
+    font-style: italic;
+    margin:20px;
+    margin-left: 20px;}
+
+h2 { font-weight:lighter
+    }
+
+li{
+    padding: 12px 10px 10px 10px;
+    margin: 20px;
+    margin-left: 20px;
+}
+
+p{
+    margin: 20px;
+    margin-left: 20px;
+}
+.navbar{ 
+    list-style: none;
+    font-weight: bolder;
+}
+
+.home{padding: 10px;
+
+}
+.navbar li a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    background-color: #AA092B;
+}
+.rrssbarra{background-color:rgba(0, 0, 0, 0.25); 
+    padding: 113.5px 48px 20px 10px; 
+}
+
+.como-llegarLI li{
+    list-style: none;
+}
+
+.links p{
+    font-style: italic;
+}
+
+.inicioimg{
+    background-color: rgba(47, 46, 46, 0.3);
+    width: 559.96px;
+    height: 191.9904px;
+    background-image: url(https://www.mendozapost.com/files/image/14/14896/54f7483e88f1c.jpg);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin-left: 20px;
+}
+
