@@ -5,9 +5,11 @@
 }
 /*font-family: "Anonymous Pro", monospace;
 */
+
 body{
     font-family: "Anonymous Pro", monospace;;
     color: #AA092B;
+    background-color: rgba(242, 229, 213, 1);
 }
 h1 { font-weight: bold;
     font-style: italic;
@@ -35,6 +37,18 @@ p{
 .home{padding: 10px;
 
 }
+
+
+.navbar li{
+    width: 167.9px;
+    height: 57px;
+    display: inline;
+    border: #AA092B 5px solid;
+    border-radius: 60px;
+    background-color: #AA092B;
+    text-align: center;
+    margin: 168px 24px;
+}
 .navbar li a{
     text-decoration: none;
     color: hsl(0, 0%, 100%);
@@ -52,11 +66,11 @@ p{
     font-style: italic;
 }
 
-.inicioimg{
+.inicio-img{
     background-color: rgba(47, 46, 46, 0.3);
     width: 559.96px;
     height: 191.9904px;
-    background-image: url(https://www.mendozapost.com/files/image/14/14896/54f7483e88f1c.jpg);
+    background-image: url("https://www.mendozapost.com/files/image/14/14896/54f7483e88f1c.jpg");
     background-position: center;
     background-size:cover;
     background-repeat: no-repeat;
