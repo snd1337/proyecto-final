@@ -100,7 +100,7 @@
 
  }
 
- .como-llegar  li {
+ .como-llegar li {
      list-style: none;
  }
 
@@ -136,22 +136,23 @@
  }
 
  .comollegar {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: 1fr;
-        grid-column-gap: 30px;
-        grid-row-gap: 30px;
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     grid-template-rows: 1fr;
+     grid-column-gap: 30px;
+     grid-row-gap: 30px;
 
-        } 
-
-.comollegar li{
-    list-style: none
-}
- .items{
-    grid-column: 1/2;
-    grid-row: 1/2;
  }
 
- .imagen-link{
-    grid-column: 2/3;
+ .comollegar li {
+     list-style: none
+ }
+
+ .items {
+     grid-column: 1/2;
+     grid-row: 1/2;
+ }
+
+ .imagen-link {
+     grid-column: 2/3;
  }
